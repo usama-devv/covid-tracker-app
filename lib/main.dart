@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // This is title widget
       title: 'COVID-19 Tracker',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
